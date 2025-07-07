@@ -4,6 +4,9 @@ const app = express();
 app.get('/', (req, res) => {
     res.send('Serverless backend working ✅');
 });
+app.get('/api', (req, res) => {
+    res.send('the backend API working ✅');
+});
 console.log("Environment:", process.env.NODE_ENV || 'development');
 
 if (!process.env.VERCEL) {
