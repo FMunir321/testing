@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 app.get('/api', (req, res) => {
     res.send('the backend API working ✅');
 });
-console.log("Environment:", process.env.NODE_ENV || 'development');
+console.log("Environment12:", process.env.NODE_ENV || 'development');
 
 if (!process.env.VERCEL) {
     const PORT = process.env.PORT || 5000;
