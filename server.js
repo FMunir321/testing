@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     res.send('Serverless backend working ✅');
 });
 app.get('/api', (req, res) => {
-    res.send('the backend API working fineeeeeee ✅');
+    res.send('the backend API working fineeeeeee22 ✅');
 });
 console.log("Environment12:", process.env.NODE_ENV || 'development');
 
